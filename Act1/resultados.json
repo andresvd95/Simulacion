@@ -1,0 +1,26 @@
+{
+  "seed": 2026,
+  "games": 100,
+  "samples_per_candidate": 24,
+  "policies": [
+    "mc",
+    "greedy"
+  ],
+  "wins": {
+    "mc": 53,
+    "greedy": 46,
+    "ties": 1
+  },
+  "mean_score": {
+    "mc": 215.38,
+    "greedy": 214.17
+  },
+  "min_score": {
+    "mc": 130,
+    "greedy": 123
+  },
+  "max_score": {
+    "mc": 398,
+    "greedy": 490
+  }
+}
