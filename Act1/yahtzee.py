@@ -208,6 +208,7 @@ def game(policy1: str, policy2: str, rng: random.Random, samples: int,
          verbose: bool = False) -> dict:
     cards = [{}, {}]
     bonuses = [0, 0]
+    last_dice: list[list[int]] = [[], []]
     policies = (policy1, policy2)
     for round_no in range(1, 14):
         for player in range(2):
@@ -218,6 +219,7 @@ def game(policy1: str, policy2: str, rng: random.Random, samples: int,
             else:
                 dice, category, earned, bonus = bot_turn(cards[player], policies[player],
                                                           rng, samples)
+            last_dice[player] = dice
             bonuses[player] += bonus
             if verbose:
                 print(f"Dados {dice} -> {category}: {earned} puntos; bono Yahtzee: {bonus}")
@@ -225,7 +227,7 @@ def game(policy1: str, policy2: str, rng: random.Random, samples: int,
     scores = [total_score(cards[i], bonuses[i]) for i in range(2)]
     winner = 0 if scores[0] == scores[1] else (1 if scores[0] > scores[1] else 2)
     return {"scores": scores, "winner": winner, "cards": cards,
-            "yahtzee_bonuses": bonuses}
+            "yahtzee_bonuses": bonuses, "last_dice": last_dice}
 
 
 def simulate(games: int, samples: int, seed: int) -> dict:

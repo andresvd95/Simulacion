@@ -8,6 +8,7 @@ Programa de consola en Python 3.11 o superior. No requiere paquetes externos. Si
 - `resultados.json`: salida de referencia con semilla fija.
 - `informe_tecnico.html`: documento técnico entregable; abrirlo en un navegador o imprimirlo como PDF.
 - `guia_adaptada.md`: relación entre la consigna y la solución; el repositorio inicial no contenía una guía adjunta.
+- `web/index.html` y `web/server.py`: frontend local para visualizar una partida y comparar simulaciones.
 
 ## Ejecutar
 
@@ -21,6 +22,16 @@ python Act1/yahtzee.py simulate --games 100 --samples 24 --seed 2026 --output Ac
 ```
 
 Si Python se instaló con `uv`, se puede reemplazar `python` por `uv run --python 3.12`.
+
+## Frontend local
+
+Para abrir una interfaz visual en el navegador:
+
+```powershell
+python Act1/web/server.py
+```
+
+Después visita <http://127.0.0.1:8000>. Desde allí puedes jugar una partida demostrativa o ejecutar un lote de simulaciones y ver las victorias, empates y puntajes de ambas estrategias.
 
 `mc` estima con muestras aleatorias la puntuación futura de cada objetivo de anotación; `greedy` decide según la mano actual. `--samples` determina cuántas muestras usa Montecarlo por candidato. `--seed` permite repetir una ejecución. Durante un turno humano se indican las posiciones de dados a conservar, de 1 a 5, separadas por espacios. Pulsar Enter sin índices termina los lanzamientos y pasa a anotar.
 
