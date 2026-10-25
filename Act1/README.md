@@ -37,6 +37,8 @@ Después visita <http://127.0.0.1:8000>. Desde allí puedes jugar una partida de
 
 El [video explicativo](video_explicativo.mp4) presenta el funcionamiento del proyecto y la relación de los resultados con la Teoría de los Grandes Números.
 
+También puedes ver el [video explicativo en Google Drive](https://drive.google.com/file/d/1uHIOWms40DKPO508QBrbS19Dht8huvW-/view?usp=sharing).
+
 También está disponible el [documento técnico en PDF](Valencia_Santiago_Montecarlo.pdf).
 
 `mc` estima con muestras aleatorias la puntuación futura de cada objetivo de anotación; `greedy` decide según la mano actual. `--samples` determina cuántas muestras usa Montecarlo por candidato. `--seed` permite repetir una ejecución. Durante un turno humano se indican las posiciones de dados a conservar, de 1 a 5, separadas por espacios. Pulsar Enter sin índices termina los lanzamientos y pasa a anotar.
