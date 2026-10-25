@@ -24,15 +24,30 @@
 <body>
   <header>
     <h1>Yahtzee clásico con estrategia de Montecarlo</h1>
-    <p class="subtitle">Actividad 1 · Simulación · Andres Vd · 21 de octubre de 2026</p>
+    <p class="subtitle">Actividad 1 · Simulación · Santiago Andres Valencia Duque · 25 de octubre de 2026</p>
   </header>
 
   <h2>1. Introducción</h2>
-  <p>El método de Montecarlo aproxima resultados de procesos aleatorios mediante repetición de experimentos. En esta actividad se aplica para decidir qué dados conservar durante una partida de Yahtzee y para comparar el desempeño de dos estrategias. El juego contiene cinco dados convencionales, dos jugadores, 13 turnos por jugador y hasta tres lanzamientos por turno. Cada cara tiene probabilidad teórica de 1/6 en cada lanzamiento independiente.</p>
-  <p>El objetivo práctico es construir una aplicación ejecutable que permita jugar y producir resultados agregados. La referencia de reglas es el manual oficial de Hasbro [1].</p>
+  <p>Este proyecto desarrolla una aplicación de Yahtzee para dos jugadores y una herramienta visual para observar su comportamiento. El juego utiliza cinco dados, 13 turnos por jugador y hasta tres lanzamientos por turno. Cada dado es independiente y tiene seis resultados equiprobables.</p>
+  <p>El trabajo se organizó con la metodología <strong>USA, MODIFICA y CREA</strong>. Primero se comprendió y reutilizó la solución inicial; después se mejoraron sus reglas, estrategias y formas de ejecución; finalmente se creó un frontend interactivo para ejecutar partidas y comparar experimentos. La referencia de las reglas es el manual oficial de Hasbro [1].</p>
 
-  <h2>2. Metodología</h2>
-  <h3>2.1 Diseño y reglas</h3>
+  <h2>2. Proceso USA, MODIFICA y CREA</h2>
+  <h3>2.1 USA: comprender y reutilizar</h3>
+  <p>En la etapa <strong>USA</strong> se tomó como punto de partida la solución inicial del juego. Se revisó cómo se lanzaban los dados, cómo se calculaban las puntuaciones, cómo se llenaba la tarjeta y cómo se gestionaban los turnos. La estructura existente se reutilizó para conservar la lógica central y separar las responsabilidades: lanzamiento, puntuación, tablero, estrategias y simulación.</p>
+
+  <h3>2.2 MODIFICA: mejorar la solución inicial</h3>
+  <p>En la etapa <strong>MODIFICA</strong> se incorporaron las reglas completas del Yahtzee: categorías superiores e inferiores, bono superior de 35 puntos, Yahtzees adicionales de 100 puntos y reglas Joker. También se añadieron dos estrategias automáticas. <code>greedy</code> decide mirando solo la mano actual; Montecarlo prueba continuaciones aleatorias para estimar qué dados conviene conservar.</p>
+  <p>Además, se modificó el programa para ejecutar muchas partidas automáticamente. Se agregaron los parámetros de número de partidas, muestras por candidato y semilla aleatoria. La semilla permite repetir el mismo experimento y comparar resultados bajo las mismas condiciones.</p>
+
+  <h3>2.3 CREA: construir una herramienta visual</h3>
+  <p>En la etapa <strong>CREA</strong> se construyó un servidor web local con Python y una interfaz HTML, CSS y JavaScript. El frontend permite elegir el número de partidas, las muestras y la semilla. Tiene dos acciones principales:</p>
+  <ul>
+    <li><strong>Jugar partida demo:</strong> ejecuta una partida Montecarlo contra greedy y muestra los dados finales, el marcador y las categorías utilizadas.</li>
+    <li><strong>Simular lote:</strong> ejecuta muchas partidas y muestra victorias, empates, puntajes medios, mínimos y máximos mediante barras y tablas.</li>
+  </ul>
+  <p>Durante el cálculo, la interfaz muestra un loader con mensajes como “Lanzando dados”, “Buscando la mejor retención”, “Evaluando decisiones Montecarlo” y “Comparando estrategias”. Así se puede observar qué está haciendo el programa mientras procesa la simulación.</p>
+
+  <h2>3. Diseño y reglas del juego</h2>
   <p>La solución separa lanzamiento de dados, cálculo de puntos, manejo del tablero y estrategias de decisión. Cada jugador dispone de una tarjeta con las seis categorías superiores y siete inferiores. Al cerrar un turno debe ocupar una casilla libre, incluso si vale cero. La suma superior de al menos 63 recibe 35 puntos. Un Yahtzee adicional aporta 100 puntos si la casilla Yahtzee contiene 50; las reglas Joker obligan a usar primero la casilla superior correspondiente, luego una inferior disponible y por último otra superior con cero [1].</p>
   <table>
     <thead><tr><th>Categoría</th><th>Puntuación</th></tr></thead>
@@ -45,7 +60,8 @@
     </tbody>
   </table>
 
-  <h3>2.2 Algoritmo de Montecarlo</h3>
+  <h2>4. Método de Montecarlo</h2>
+  <h3>4.1 Cómo toma decisiones el jugador Montecarlo</h3>
   <p>Para cada categoría libre, la estrategia construye un conjunto de dados a conservar según su objetivo: dados del mismo número, del grupo más frecuente, valores únicos de una escalera o valores altos para azar. También evalúa conservar los cinco dados. Para cada candidato genera <em>N</em> continuaciones con las caras equiprobables; si quedan dos lanzamientos, usa una regla de conservación orientada a la misma categoría entre el segundo y el tercero. Calcula la media de <code>puntos finales − costo de reserva de la casilla</code> y elige el candidato de mayor media. Al terminar los lanzamientos, anota la mejor categoría legal con esa misma función de utilidad.</p>
   <p>Los costos de reserva son heurísticos explícitos del código: evitan gastar una categoría valiosa por pocos puntos. Por tanto, la media Montecarlo aproxima el valor de esos candidatos y esa política de continuación, no la estrategia matemáticamente óptima. La estrategia de comparación, <code>greedy</code>, usa la mano actual para elegir objetivo y no muestrea continuaciones.</p>
   <pre>para cada turno y jugador:
@@ -57,11 +73,11 @@
     elegir categoría legal y registrar puntos
 sumar casillas, bono superior y bonos Yahtzee</pre>
 
-  <h3>2.3 Implementación y experimento</h3>
+  <h3>4.2 Implementación del experimento</h3>
   <p>Se implementó en Python con su biblioteca estándar. <code>random.Random(seed)</code> permite repetir una ejecución y <code>randint(1, 6)</code> modela los dados uniformes. El modo <code>play</code> ofrece jugadores humanos, Montecarlo o greedy; <code>simulate</code> ejecuta partidas completas y exporta JSON. El experimento de referencia usa 100 partidas, 24 muestras por candidato y semilla 2026. Montecarlo ocupa el puesto de jugador 1 y greedy el de jugador 2.</p>
   <pre>python Act1/yahtzee.py simulate --games 100 --samples 24 --seed 2026 --output Act1/resultados.json</pre>
 
-  <h2>3. Resultados</h2>
+  <h2>5. Resultados y Teoría de los Grandes Números</h2>
   <p>La ejecución reproducible produjo los siguientes valores, disponibles también en <code>resultados.json</code>.</p>
   <table>
     <thead><tr><th>Medida</th><th>Montecarlo</th><th>Greedy</th></tr></thead>
@@ -72,13 +88,18 @@ sumar casillas, bono superior y bonos Yahtzee</pre>
       <tr><td>Puntuación máxima</td><td>398</td><td>490</td></tr>
     </tbody>
   </table>
-  <p>Hubo un empate. La diferencia de medias fue 1,21 puntos y la de victorias fue de siete partidas. Este experimento ilustra cómo explotar las muestras para comparar políticas, pero 100 partidas y una sola semilla no justifican afirmar que Montecarlo sea superior en general. Las dos estrategias son heurísticas y la elección de costos de reserva afecta sus resultados.</p>
+  <p>Hubo un empate. La diferencia de medias fue de 1,21 puntos y la diferencia de victorias fue de siete partidas. El resultado muestra una pequeña ventaja de Montecarlo en esta ejecución, pero no significa que gane siempre: el máximo de greedy fue superior y cada partida está influenciada por el azar.</p>
 
-  <h2>4. Conclusiones</h2>
+  <h3>5.1 Justificación de la Teoría de los Grandes Números</h3>
+  <p>La Teoría de los Grandes Números indica que, al repetir muchas veces un experimento aleatorio independiente, el promedio observado tiende a acercarse al valor esperado. En este proyecto, los dados se generan con resultados uniformes entre 1 y 6 y las partidas se repiten con las mismas reglas.</p>
+  <p>La evidencia se observa al comparar promedios y no una sola partida: después de 100 partidas, Montecarlo obtuvo 215,38 puntos de media y greedy 214,17. Los resultados extremos fueron 130 y 398 para Montecarlo, y 123 y 490 para greedy, lo que confirma que existe variabilidad individual. Sin embargo, al agrupar las partidas, los valores medios son mucho más representativos que cualquiera de esos extremos.</p>
+  <p>Por tanto, el experimento cumple la teoría como evidencia empírica: las repeticiones permiten que los casos favorables y desfavorables se compensen y que el promedio sea más estable. Para observar una convergencia todavía más clara se podrían ejecutar 1.000 o 10.000 partidas y repetir el experimento con varias semillas. Las 100 partidas y una sola semilla no constituyen una demostración matemática absoluta, pero sí muestran el comportamiento esperado de la ley.</p>
+
+  <h2>6. Conclusiones</h2>
   <p>Se completó un juego de dos participantes con reglas de anotación clásicas, selección de dados mediante Montecarlo y ejecución masiva reproducible. El muestreo permite estimar el resultado de decisiones de conservación sin enumerar todas las secuencias futuras de dados. En el ensayo registrado, Montecarlo obtuvo una ventaja pequeña frente a la estrategia greedy; es un resultado descriptivo del experimento, no una garantía de mejor desempeño.</p>
   <p>Como mejora posterior se podría comparar varias semillas, medir la variabilidad y ajustar o sustituir los costos de reserva por una función de valor del tablero completo. La aplicación ya permite cambiar el tamaño del experimento y las muestras por candidato desde la línea de comandos.</p>
 
-  <h2>5. Referencias bibliográficas</h2>
+  <h2>7. Referencias bibliográficas</h2>
   <ol>
     <li>Hasbro. <em>Yahtzee: instrucciones oficiales</em>. <a href="https://www.hasbro.com/common/instruct/yahtzee.pdf">https://www.hasbro.com/common/instruct/yahtzee.pdf</a>. Consultado el 21 de octubre de 2026.</li>
     <li>Python Software Foundation. <em>random — Generate pseudo-random numbers</em>. <a href="https://docs.python.org/3/library/random.html">https://docs.python.org/3/library/random.html</a>. Consultado el 21 de octubre de 2026.</li>
