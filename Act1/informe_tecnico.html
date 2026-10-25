@@ -9,6 +9,12 @@
     body { max-width: 850px; margin: 32px auto; padding: 48px 58px; background: white; box-shadow: 0 3px 24px #1723311a; line-height: 1.6; }
     h1, h2, h3 { font-family: Arial, sans-serif; line-height: 1.25; }
     h1 { font-size: 2.2rem; margin-bottom: 0; }
+    .cover { min-height: 78vh; display: flex; flex-direction: column; justify-content: center; text-align: center; }
+    .cover h1 { max-width: 680px; margin: 0 auto 1rem; }
+    .cover-data { margin-top: 2.2rem; font: 1.05rem/1.8 Arial, sans-serif; color: #536273; }
+    .cover-data p { margin: .15rem 0; }
+    .cover-data .author { color: #172331; font-weight: 700; font-size: 1.2rem; }
+    .cover + h2 { page-break-before: always; }
     h2 { margin-top: 2rem; border-bottom: 1px solid #d5dce4; padding-bottom: .25rem; }
     .subtitle { color: #536273; font: 1.05rem Arial, sans-serif; }
     table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .94rem; }
@@ -22,10 +28,18 @@
   </style>
 </head>
 <body>
-  <header>
+  <header class="cover">
     <h1>Yahtzee clásico con estrategia de Montecarlo</h1>
-    <p class="subtitle">Actividad 1 · Simulación · Santiago Andres Valencia Duque · 25 de octubre de 2026</p>
-    <p class="subtitle">Repositorio: <a href="https://github.com/andresvd95/Simulacion">github.com/andresvd95/Simulacion</a></p>
+    <p class="subtitle">Documento técnico</p>
+    <div class="cover-data">
+      <p class="author">Santiago Andres Valencia Duque</p>
+      <p>IU Digital de Antioquia</p>
+      <p>Ingeniería de Software y Datos</p>
+      <p>Módulo 1 · Actividad dinámica 2 M1</p>
+      <p>Medellín, Colombia</p>
+      <p>25 de octubre de 2026</p>
+      <p>Repositorio: <a href="https://github.com/andresvd95/Simulacion">github.com/andresvd95/Simulacion</a></p>
+    </div>
   </header>
 
   <h2>1. Introducción</h2>
