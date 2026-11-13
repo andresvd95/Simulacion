@@ -1,3 +1,10 @@
+# Simulación
+
+Repositorio de las actividades de la asignatura de Simulación.
+
+- **Actividad 1:** simulación de Yahtzee con Montecarlo (esta página, carpeta `Act1/`).
+- **Actividad 2:** Modelo Oculto de Markov para el abandono de clientes de un ISP, en [`Actividad 2/`](Actividad%202/README.md).
+
 # Simulación de Yahtzee con Montecarlo
 
 Aplicación de consola que simula el Yahtzee clásico para dos jugadores y compara una estrategia basada en Montecarlo con una estrategia greedy. El proyecto corresponde a la Actividad 1 de Simulación.
