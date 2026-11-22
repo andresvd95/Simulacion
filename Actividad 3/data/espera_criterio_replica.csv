@@ -1,0 +1,721 @@
+escenario,replica,criterio,espera
+E0_3mixtas,1,General,1.6613
+E0_3mixtas,1,Operación: Pago,0.6374
+E0_3mixtas,1,Operación: Retiro,2.1291
+E0_3mixtas,1,Tipo: Pago - Lento,1.2783
+E0_3mixtas,1,Tipo: Pago - Muy lento,0.6034
+E0_3mixtas,1,Tipo: Pago - Normal,0.0
+E0_3mixtas,1,Tipo: Pago - Rápido,0.4162
+E0_3mixtas,1,Tipo: Retiro - Lento,1.3642
+E0_3mixtas,1,Tipo: Retiro - Muy lento,1.2261
+E0_3mixtas,1,Tipo: Retiro - Normal,2.2284
+E0_3mixtas,1,Tipo: Retiro - Rápido,3.1032
+E0_3mixtas,1,Caja 1,2.362
+E0_3mixtas,1,Caja 2,1.2016
+E0_3mixtas,1,Caja 3,1.571
+E0_3mixtas,2,General,0.584
+E0_3mixtas,2,Operación: Pago,0.3887
+E0_3mixtas,2,Operación: Retiro,0.6843
+E0_3mixtas,2,Tipo: Pago - Lento,0.7541
+E0_3mixtas,2,Tipo: Pago - Muy lento,0.272
+E0_3mixtas,2,Tipo: Pago - Normal,0.3453
+E0_3mixtas,2,Tipo: Pago - Rápido,0.1396
+E0_3mixtas,2,Tipo: Retiro - Lento,0.2925
+E0_3mixtas,2,Tipo: Retiro - Muy lento,0.6827
+E0_3mixtas,2,Tipo: Retiro - Normal,0.8076
+E0_3mixtas,2,Tipo: Retiro - Rápido,0.75
+E0_3mixtas,2,Caja 1,0.4375
+E0_3mixtas,2,Caja 2,0.7204
+E0_3mixtas,2,Caja 3,0.6162
+E0_3mixtas,3,General,0.4978
+E0_3mixtas,3,Operación: Pago,0.6246
+E0_3mixtas,3,Operación: Retiro,0.4482
+E0_3mixtas,3,Tipo: Pago - Lento,0.0
+E0_3mixtas,3,Tipo: Pago - Muy lento,0.931
+E0_3mixtas,3,Tipo: Pago - Normal,1.386
+E0_3mixtas,3,Tipo: Pago - Rápido,1.0221
+E0_3mixtas,3,Tipo: Retiro - Lento,0.5668
+E0_3mixtas,3,Tipo: Retiro - Muy lento,0.2055
+E0_3mixtas,3,Tipo: Retiro - Normal,0.6017
+E0_3mixtas,3,Tipo: Retiro - Rápido,0.2349
+E0_3mixtas,3,Caja 1,0.3735
+E0_3mixtas,3,Caja 2,0.5863
+E0_3mixtas,3,Caja 3,0.5151
+E0_3mixtas,4,General,0.5779
+E0_3mixtas,4,Operación: Pago,0.2142
+E0_3mixtas,4,Operación: Retiro,0.7823
+E0_3mixtas,4,Tipo: Pago - Lento,0.0273
+E0_3mixtas,4,Tipo: Pago - Muy lento,0.3682
+E0_3mixtas,4,Tipo: Pago - Normal,0.2183
+E0_3mixtas,4,Tipo: Pago - Rápido,0.2278
+E0_3mixtas,4,Tipo: Retiro - Lento,0.5902
+E0_3mixtas,4,Tipo: Retiro - Muy lento,0.6579
+E0_3mixtas,4,Tipo: Retiro - Normal,0.7462
+E0_3mixtas,4,Tipo: Retiro - Rápido,1.1697
+E0_3mixtas,4,Caja 1,0.3903
+E0_3mixtas,4,Caja 2,0.5722
+E0_3mixtas,4,Caja 3,0.7651
+E0_3mixtas,5,General,0.708
+E0_3mixtas,5,Operación: Pago,0.6387
+E0_3mixtas,5,Operación: Retiro,0.7394
+E0_3mixtas,5,Tipo: Pago - Lento,0.9493
+E0_3mixtas,5,Tipo: Pago - Muy lento,0.222
+E0_3mixtas,5,Tipo: Pago - Normal,0.0612
+E0_3mixtas,5,Tipo: Pago - Rápido,1.7803
+E0_3mixtas,5,Tipo: Retiro - Lento,1.405
+E0_3mixtas,5,Tipo: Retiro - Muy lento,0.2645
+E0_3mixtas,5,Tipo: Retiro - Normal,0.5903
+E0_3mixtas,5,Tipo: Retiro - Rápido,1.0447
+E0_3mixtas,5,Caja 1,0.7664
+E0_3mixtas,5,Caja 2,0.5124
+E0_3mixtas,5,Caja 3,0.8596
+E0_3mixtas,6,General,0.7858
+E0_3mixtas,6,Operación: Pago,1.2555
+E0_3mixtas,6,Operación: Retiro,0.592
+E0_3mixtas,6,Tipo: Pago - Lento,1.2509
+E0_3mixtas,6,Tipo: Pago - Muy lento,1.3973
+E0_3mixtas,6,Tipo: Pago - Normal,0.0
+E0_3mixtas,6,Tipo: Pago - Rápido,3.1155
+E0_3mixtas,6,Tipo: Retiro - Lento,0.8589
+E0_3mixtas,6,Tipo: Retiro - Muy lento,0.4041
+E0_3mixtas,6,Tipo: Retiro - Normal,0.6443
+E0_3mixtas,6,Tipo: Retiro - Rápido,0.5406
+E0_3mixtas,6,Caja 1,0.7025
+E0_3mixtas,6,Caja 2,0.9208
+E0_3mixtas,6,Caja 3,0.7534
+E0_3mixtas,7,General,0.7339
+E0_3mixtas,7,Operación: Pago,0.5666
+E0_3mixtas,7,Operación: Retiro,0.7979
+E0_3mixtas,7,Tipo: Pago - Lento,0.8474
+E0_3mixtas,7,Tipo: Pago - Muy lento,0.005
+E0_3mixtas,7,Tipo: Pago - Normal,0.2489
+E0_3mixtas,7,Tipo: Pago - Rápido,1.3118
+E0_3mixtas,7,Tipo: Retiro - Lento,0.7218
+E0_3mixtas,7,Tipo: Retiro - Muy lento,0.2326
+E0_3mixtas,7,Tipo: Retiro - Normal,0.9453
+E0_3mixtas,7,Tipo: Retiro - Rápido,1.0768
+E0_3mixtas,7,Caja 1,0.9456
+E0_3mixtas,7,Caja 2,0.6349
+E0_3mixtas,7,Caja 3,0.6391
+E0_3mixtas,8,General,0.4549
+E0_3mixtas,8,Operación: Pago,0.5085
+E0_3mixtas,8,Operación: Retiro,0.4333
+E0_3mixtas,8,Tipo: Pago - Lento,0.0
+E0_3mixtas,8,Tipo: Pago - Muy lento,0.0
+E0_3mixtas,8,Tipo: Pago - Normal,1.9885
+E0_3mixtas,8,Tipo: Pago - Rápido,0.3025
+E0_3mixtas,8,Tipo: Retiro - Lento,0.0281
+E0_3mixtas,8,Tipo: Retiro - Muy lento,1.0825
+E0_3mixtas,8,Tipo: Retiro - Normal,0.4048
+E0_3mixtas,8,Tipo: Retiro - Rápido,0.3672
+E0_3mixtas,8,Caja 1,0.1258
+E0_3mixtas,8,Caja 2,0.8605
+E0_3mixtas,8,Caja 3,0.5364
+E0_3mixtas,9,General,0.7316
+E0_3mixtas,9,Operación: Pago,0.6427
+E0_3mixtas,9,Operación: Retiro,0.769
+E0_3mixtas,9,Tipo: Pago - Lento,0.0144
+E0_3mixtas,9,Tipo: Pago - Muy lento,0.6209
+E0_3mixtas,9,Tipo: Pago - Normal,0.8661
+E0_3mixtas,9,Tipo: Pago - Rápido,1.5598
+E0_3mixtas,9,Tipo: Retiro - Lento,0.5109
+E0_3mixtas,9,Tipo: Retiro - Muy lento,1.4196
+E0_3mixtas,9,Tipo: Retiro - Normal,0.8495
+E0_3mixtas,9,Tipo: Retiro - Rápido,0.17
+E0_3mixtas,9,Caja 1,0.6194
+E0_3mixtas,9,Caja 2,0.7482
+E0_3mixtas,9,Caja 3,0.8426
+E0_3mixtas,10,General,1.1335
+E0_3mixtas,10,Operación: Pago,1.2311
+E0_3mixtas,10,Operación: Retiro,1.0907
+E0_3mixtas,10,Tipo: Pago - Lento,0.8979
+E0_3mixtas,10,Tipo: Pago - Muy lento,0.8611
+E0_3mixtas,10,Tipo: Pago - Normal,2.5014
+E0_3mixtas,10,Tipo: Pago - Rápido,0.9836
+E0_3mixtas,10,Tipo: Retiro - Lento,0.5918
+E0_3mixtas,10,Tipo: Retiro - Muy lento,0.1757
+E0_3mixtas,10,Tipo: Retiro - Normal,1.0718
+E0_3mixtas,10,Tipo: Retiro - Rápido,3.2615
+E0_3mixtas,10,Caja 1,0.9431
+E0_3mixtas,10,Caja 2,1.3498
+E0_3mixtas,10,Caja 3,1.0864
+E1_1R_2P,1,General,14.1374
+E1_1R_2P,1,Operación: Pago,0.7623
+E1_1R_2P,1,Operación: Retiro,20.2492
+E1_1R_2P,1,Tipo: Pago - Lento,0.9232
+E1_1R_2P,1,Tipo: Pago - Muy lento,0.8856
+E1_1R_2P,1,Tipo: Pago - Normal,0.3308
+E1_1R_2P,1,Tipo: Pago - Rápido,0.8375
+E1_1R_2P,1,Tipo: Retiro - Lento,18.6858
+E1_1R_2P,1,Tipo: Retiro - Muy lento,18.4182
+E1_1R_2P,1,Tipo: Retiro - Normal,22.9513
+E1_1R_2P,1,Tipo: Retiro - Rápido,17.6462
+E1_1R_2P,1,Caja 1,20.2492
+E1_1R_2P,1,Caja 2,0.5809
+E1_1R_2P,1,Caja 3,0.9384
+E1_1R_2P,2,General,2.3593
+E1_1R_2P,2,Operación: Pago,0.6302
+E1_1R_2P,2,Operación: Retiro,3.2469
+E1_1R_2P,2,Tipo: Pago - Lento,0.4639
+E1_1R_2P,2,Tipo: Pago - Muy lento,0.5829
+E1_1R_2P,2,Tipo: Pago - Normal,0.8283
+E1_1R_2P,2,Tipo: Pago - Rápido,0.8938
+E1_1R_2P,2,Tipo: Retiro - Lento,2.1129
+E1_1R_2P,2,Tipo: Retiro - Muy lento,3.4789
+E1_1R_2P,2,Tipo: Retiro - Normal,3.383
+E1_1R_2P,2,Tipo: Retiro - Rápido,3.7507
+E1_1R_2P,2,Caja 1,3.2469
+E1_1R_2P,2,Caja 2,0.6601
+E1_1R_2P,2,Caja 3,0.5994
+E1_1R_2P,3,General,3.8667
+E1_1R_2P,3,Operación: Pago,0.726
+E1_1R_2P,3,Operación: Retiro,5.0966
+E1_1R_2P,3,Tipo: Pago - Lento,0.7803
+E1_1R_2P,3,Tipo: Pago - Muy lento,0.5246
+E1_1R_2P,3,Tipo: Pago - Normal,0.4467
+E1_1R_2P,3,Tipo: Pago - Rápido,3.5238
+E1_1R_2P,3,Tipo: Retiro - Lento,3.5307
+E1_1R_2P,3,Tipo: Retiro - Muy lento,5.5649
+E1_1R_2P,3,Tipo: Retiro - Normal,4.4646
+E1_1R_2P,3,Tipo: Retiro - Rápido,7.4619
+E1_1R_2P,3,Caja 1,5.0966
+E1_1R_2P,3,Caja 2,0.7294
+E1_1R_2P,3,Caja 3,0.7239
+E1_1R_2P,4,General,3.1878
+E1_1R_2P,4,Operación: Pago,0.6442
+E1_1R_2P,4,Operación: Retiro,4.6173
+E1_1R_2P,4,Tipo: Pago - Lento,0.9891
+E1_1R_2P,4,Tipo: Pago - Muy lento,0.0846
+E1_1R_2P,4,Tipo: Pago - Normal,1.4216
+E1_1R_2P,4,Tipo: Pago - Rápido,0.0753
+E1_1R_2P,4,Tipo: Retiro - Lento,4.1855
+E1_1R_2P,4,Tipo: Retiro - Muy lento,5.0683
+E1_1R_2P,4,Tipo: Retiro - Normal,4.7034
+E1_1R_2P,4,Tipo: Retiro - Rápido,4.3966
+E1_1R_2P,4,Caja 1,4.6173
+E1_1R_2P,4,Caja 2,0.1418
+E1_1R_2P,4,Caja 3,1.1178
+E1_1R_2P,5,General,3.2614
+E1_1R_2P,5,Operación: Pago,0.2805
+E1_1R_2P,5,Operación: Retiro,4.6128
+E1_1R_2P,5,Tipo: Pago - Lento,0.2048
+E1_1R_2P,5,Tipo: Pago - Muy lento,0.0
+E1_1R_2P,5,Tipo: Pago - Normal,0.0
+E1_1R_2P,5,Tipo: Pago - Rápido,1.5961
+E1_1R_2P,5,Tipo: Retiro - Lento,3.7195
+E1_1R_2P,5,Tipo: Retiro - Muy lento,3.5578
+E1_1R_2P,5,Tipo: Retiro - Normal,5.2638
+E1_1R_2P,5,Tipo: Retiro - Rápido,4.9266
+E1_1R_2P,5,Caja 1,4.6128
+E1_1R_2P,5,Caja 2,0.2618
+E1_1R_2P,5,Caja 3,0.3108
+E1_1R_2P,6,General,2.3316
+E1_1R_2P,6,Operación: Pago,1.5419
+E1_1R_2P,6,Operación: Retiro,2.6574
+E1_1R_2P,6,Tipo: Pago - Lento,1.3989
+E1_1R_2P,6,Tipo: Pago - Muy lento,1.5029
+E1_1R_2P,6,Tipo: Pago - Normal,0.1524
+E1_1R_2P,6,Tipo: Pago - Rápido,6.4273
+E1_1R_2P,6,Tipo: Retiro - Lento,2.2895
+E1_1R_2P,6,Tipo: Retiro - Muy lento,2.4812
+E1_1R_2P,6,Tipo: Retiro - Normal,3.1668
+E1_1R_2P,6,Tipo: Retiro - Rápido,2.0613
+E1_1R_2P,6,Caja 1,2.6574
+E1_1R_2P,6,Caja 2,1.9256
+E1_1R_2P,6,Caja 3,1.1711
+E1_1R_2P,7,General,6.2418
+E1_1R_2P,7,Operación: Pago,0.4677
+E1_1R_2P,7,Operación: Retiro,8.4524
+E1_1R_2P,7,Tipo: Pago - Lento,0.7169
+E1_1R_2P,7,Tipo: Pago - Muy lento,0.1519
+E1_1R_2P,7,Tipo: Pago - Normal,0.5006
+E1_1R_2P,7,Tipo: Pago - Rápido,0.4726
+E1_1R_2P,7,Tipo: Retiro - Lento,6.5647
+E1_1R_2P,7,Tipo: Retiro - Muy lento,8.608
+E1_1R_2P,7,Tipo: Retiro - Normal,8.5342
+E1_1R_2P,7,Tipo: Retiro - Rápido,9.267
+E1_1R_2P,7,Caja 1,8.4524
+E1_1R_2P,7,Caja 2,0.2861
+E1_1R_2P,7,Caja 3,0.6663
+E1_1R_2P,8,General,1.6857
+E1_1R_2P,8,Operación: Pago,0.3119
+E1_1R_2P,8,Operación: Retiro,2.2413
+E1_1R_2P,8,Tipo: Pago - Lento,0.4466
+E1_1R_2P,8,Tipo: Pago - Muy lento,0.335
+E1_1R_2P,8,Tipo: Pago - Normal,0.1355
+E1_1R_2P,8,Tipo: Pago - Rápido,0.3328
+E1_1R_2P,8,Tipo: Retiro - Lento,0.8889
+E1_1R_2P,8,Tipo: Retiro - Muy lento,1.7337
+E1_1R_2P,8,Tipo: Retiro - Normal,2.4354
+E1_1R_2P,8,Tipo: Retiro - Rápido,3.5013
+E1_1R_2P,8,Caja 1,2.2413
+E1_1R_2P,8,Caja 2,0.4666
+E1_1R_2P,8,Caja 3,0.1516
+E1_1R_2P,9,General,5.9567
+E1_1R_2P,9,Operación: Pago,1.4257
+E1_1R_2P,9,Operación: Retiro,7.8615
+E1_1R_2P,9,Tipo: Pago - Lento,3.0896
+E1_1R_2P,9,Tipo: Pago - Muy lento,1.4226
+E1_1R_2P,9,Tipo: Pago - Normal,0.6094
+E1_1R_2P,9,Tipo: Pago - Rápido,0.0
+E1_1R_2P,9,Tipo: Retiro - Lento,9.4474
+E1_1R_2P,9,Tipo: Retiro - Muy lento,7.2595
+E1_1R_2P,9,Tipo: Retiro - Normal,7.4741
+E1_1R_2P,9,Tipo: Retiro - Rápido,7.6909
+E1_1R_2P,9,Caja 1,7.8615
+E1_1R_2P,9,Caja 2,1.9607
+E1_1R_2P,9,Caja 3,0.9222
+E1_1R_2P,10,General,4.6684
+E1_1R_2P,10,Operación: Pago,2.0811
+E1_1R_2P,10,Operación: Retiro,5.8023
+E1_1R_2P,10,Tipo: Pago - Lento,0.772
+E1_1R_2P,10,Tipo: Pago - Muy lento,2.6676
+E1_1R_2P,10,Tipo: Pago - Normal,3.3309
+E1_1R_2P,10,Tipo: Pago - Rápido,1.2557
+E1_1R_2P,10,Tipo: Retiro - Lento,4.8648
+E1_1R_2P,10,Tipo: Retiro - Muy lento,3.3171
+E1_1R_2P,10,Tipo: Retiro - Normal,6.5772
+E1_1R_2P,10,Tipo: Retiro - Rápido,8.5684
+E1_1R_2P,10,Caja 1,5.8023
+E1_1R_2P,10,Caja 2,2.0642
+E1_1R_2P,10,Caja 3,2.0985
+E2_2R_1P,1,General,3.4726
+E2_2R_1P,1,Operación: Pago,9.1225
+E2_2R_1P,1,Operación: Retiro,0.8909
+E2_2R_1P,1,Tipo: Pago - Lento,9.1399
+E2_2R_1P,1,Tipo: Pago - Muy lento,8.37
+E2_2R_1P,1,Tipo: Pago - Normal,9.9216
+E2_2R_1P,1,Tipo: Pago - Rápido,9.8323
+E2_2R_1P,1,Tipo: Retiro - Lento,0.2067
+E2_2R_1P,1,Tipo: Retiro - Muy lento,0.6293
+E2_2R_1P,1,Tipo: Retiro - Normal,0.9488
+E2_2R_1P,1,Tipo: Retiro - Rápido,1.3638
+E2_2R_1P,1,Caja 1,1.1774
+E2_2R_1P,1,Caja 2,0.5928
+E2_2R_1P,1,Caja 3,9.1225
+E2_2R_1P,2,General,3.5087
+E2_2R_1P,2,Operación: Pago,9.5203
+E2_2R_1P,2,Operación: Retiro,0.4227
+E2_2R_1P,2,Tipo: Pago - Lento,8.2822
+E2_2R_1P,2,Tipo: Pago - Muy lento,9.7115
+E2_2R_1P,2,Tipo: Pago - Normal,9.7133
+E2_2R_1P,2,Tipo: Pago - Rápido,12.0975
+E2_2R_1P,2,Tipo: Retiro - Lento,0.1871
+E2_2R_1P,2,Tipo: Retiro - Muy lento,0.599
+E2_2R_1P,2,Tipo: Retiro - Normal,0.5211
+E2_2R_1P,2,Tipo: Retiro - Rápido,0.2881
+E2_2R_1P,2,Caja 1,0.3088
+E2_2R_1P,2,Caja 2,0.5397
+E2_2R_1P,2,Caja 3,9.5203
+E2_2R_1P,3,General,2.8177
+E2_2R_1P,3,Operación: Pago,8.5774
+E2_2R_1P,3,Operación: Retiro,0.5622
+E2_2R_1P,3,Tipo: Pago - Lento,6.9214
+E2_2R_1P,3,Tipo: Pago - Muy lento,10.1572
+E2_2R_1P,3,Tipo: Pago - Normal,9.1912
+E2_2R_1P,3,Tipo: Pago - Rápido,10.0659
+E2_2R_1P,3,Tipo: Retiro - Lento,0.1985
+E2_2R_1P,3,Tipo: Retiro - Muy lento,0.5936
+E2_2R_1P,3,Tipo: Retiro - Normal,0.2862
+E2_2R_1P,3,Tipo: Retiro - Rápido,1.4088
+E2_2R_1P,3,Caja 1,0.6477
+E2_2R_1P,3,Caja 2,0.4754
+E2_2R_1P,3,Caja 3,8.5774
+E2_2R_1P,4,General,2.6427
+E2_2R_1P,4,Operación: Pago,6.8132
+E2_2R_1P,4,Operación: Retiro,0.299
+E2_2R_1P,4,Tipo: Pago - Lento,5.4487
+E2_2R_1P,4,Tipo: Pago - Muy lento,6.4769
+E2_2R_1P,4,Tipo: Pago - Normal,8.8502
+E2_2R_1P,4,Tipo: Pago - Rápido,7.2604
+E2_2R_1P,4,Tipo: Retiro - Lento,0.0616
+E2_2R_1P,4,Tipo: Retiro - Muy lento,0.1379
+E2_2R_1P,4,Tipo: Retiro - Normal,0.5338
+E2_2R_1P,4,Tipo: Retiro - Rápido,0.1288
+E2_2R_1P,4,Caja 1,0.1909
+E2_2R_1P,4,Caja 2,0.4052
+E2_2R_1P,4,Caja 3,6.8132
+E2_2R_1P,5,General,1.8588
+E2_2R_1P,5,Operación: Pago,4.4124
+E2_2R_1P,5,Operación: Retiro,0.7011
+E2_2R_1P,5,Tipo: Pago - Lento,3.9092
+E2_2R_1P,5,Tipo: Pago - Muy lento,2.414
+E2_2R_1P,5,Tipo: Pago - Normal,6.3803
+E2_2R_1P,5,Tipo: Pago - Rápido,7.0818
+E2_2R_1P,5,Tipo: Retiro - Lento,0.9822
+E2_2R_1P,5,Tipo: Retiro - Muy lento,0.2208
+E2_2R_1P,5,Tipo: Retiro - Normal,0.6583
+E2_2R_1P,5,Tipo: Retiro - Rápido,1.06
+E2_2R_1P,5,Caja 1,0.6694
+E2_2R_1P,5,Caja 2,0.7363
+E2_2R_1P,5,Caja 3,4.4124
+E2_2R_1P,6,General,3.8315
+E2_2R_1P,6,Operación: Pago,12.0507
+E2_2R_1P,6,Operación: Retiro,0.4404
+E2_2R_1P,6,Tipo: Pago - Lento,13.5514
+E2_2R_1P,6,Tipo: Pago - Muy lento,11.9027
+E2_2R_1P,6,Tipo: Pago - Normal,7.2478
+E2_2R_1P,6,Tipo: Pago - Rápido,18.4335
+E2_2R_1P,6,Tipo: Retiro - Lento,0.1238
+E2_2R_1P,6,Tipo: Retiro - Muy lento,0.1726
+E2_2R_1P,6,Tipo: Retiro - Normal,0.5929
+E2_2R_1P,6,Tipo: Retiro - Rápido,0.521
+E2_2R_1P,6,Caja 1,0.6184
+E2_2R_1P,6,Caja 2,0.2598
+E2_2R_1P,6,Caja 3,12.0507
+E2_2R_1P,7,General,2.3749
+E2_2R_1P,7,Operación: Pago,6.2657
+E2_2R_1P,7,Operación: Retiro,0.8853
+E2_2R_1P,7,Tipo: Pago - Lento,6.2342
+E2_2R_1P,7,Tipo: Pago - Muy lento,5.9827
+E2_2R_1P,7,Tipo: Pago - Normal,6.3322
+E2_2R_1P,7,Tipo: Pago - Rápido,6.6939
+E2_2R_1P,7,Tipo: Retiro - Lento,0.7029
+E2_2R_1P,7,Tipo: Retiro - Muy lento,0.4848
+E2_2R_1P,7,Tipo: Retiro - Normal,1.0876
+E2_2R_1P,7,Tipo: Retiro - Rápido,1.0429
+E2_2R_1P,7,Caja 1,0.777
+E2_2R_1P,7,Caja 2,0.9974
+E2_2R_1P,7,Caja 3,6.2657
+E2_2R_1P,8,General,2.0456
+E2_2R_1P,8,Operación: Pago,6.6231
+E2_2R_1P,8,Operación: Retiro,0.1944
+E2_2R_1P,8,Tipo: Pago - Lento,6.6401
+E2_2R_1P,8,Tipo: Pago - Muy lento,4.4716
+E2_2R_1P,8,Tipo: Pago - Normal,9.7308
+E2_2R_1P,8,Tipo: Pago - Rápido,7.8917
+E2_2R_1P,8,Tipo: Retiro - Lento,0.0
+E2_2R_1P,8,Tipo: Retiro - Muy lento,0.1101
+E2_2R_1P,8,Tipo: Retiro - Normal,0.1876
+E2_2R_1P,8,Tipo: Retiro - Rápido,0.4441
+E2_2R_1P,8,Caja 1,0.1694
+E2_2R_1P,8,Caja 2,0.2225
+E2_2R_1P,8,Caja 3,6.6231
+E2_2R_1P,9,General,3.2854
+E2_2R_1P,9,Operación: Pago,9.4034
+E2_2R_1P,9,Operación: Retiro,0.7135
+E2_2R_1P,9,Tipo: Pago - Lento,14.4941
+E2_2R_1P,9,Tipo: Pago - Muy lento,7.2643
+E2_2R_1P,9,Tipo: Pago - Normal,10.288
+E2_2R_1P,9,Tipo: Pago - Rápido,2.6414
+E2_2R_1P,9,Tipo: Retiro - Lento,0.763
+E2_2R_1P,9,Tipo: Retiro - Muy lento,0.2215
+E2_2R_1P,9,Tipo: Retiro - Normal,0.8776
+E2_2R_1P,9,Tipo: Retiro - Rápido,0.8371
+E2_2R_1P,9,Caja 1,0.5373
+E2_2R_1P,9,Caja 2,0.9061
+E2_2R_1P,9,Caja 3,9.4034
+E2_2R_1P,10,General,7.3779
+E2_2R_1P,10,Operación: Pago,22.2549
+E2_2R_1P,10,Operación: Retiro,0.8577
+E2_2R_1P,10,Tipo: Pago - Lento,19.8375
+E2_2R_1P,10,Tipo: Pago - Muy lento,20.7326
+E2_2R_1P,10,Tipo: Pago - Normal,21.8165
+E2_2R_1P,10,Tipo: Pago - Rápido,36.6638
+E2_2R_1P,10,Tipo: Retiro - Lento,0.8046
+E2_2R_1P,10,Tipo: Retiro - Muy lento,0.3013
+E2_2R_1P,10,Tipo: Retiro - Normal,1.0073
+E2_2R_1P,10,Tipo: Retiro - Rápido,1.4059
+E2_2R_1P,10,Caja 1,0.8524
+E2_2R_1P,10,Caja 2,0.863
+E2_2R_1P,10,Caja 3,22.2549
+E3_4mixtas,1,General,0.4582
+E3_4mixtas,1,Operación: Pago,0.1841
+E3_4mixtas,1,Operación: Retiro,0.5834
+E3_4mixtas,1,Tipo: Pago - Lento,0.5218
+E3_4mixtas,1,Tipo: Pago - Muy lento,0.0906
+E3_4mixtas,1,Tipo: Pago - Normal,0.0
+E3_4mixtas,1,Tipo: Pago - Rápido,0.0
+E3_4mixtas,1,Tipo: Retiro - Lento,1.06
+E3_4mixtas,1,Tipo: Retiro - Muy lento,0.1091
+E3_4mixtas,1,Tipo: Retiro - Normal,0.6667
+E3_4mixtas,1,Tipo: Retiro - Rápido,0.5743
+E3_4mixtas,1,Caja 1,0.708
+E3_4mixtas,1,Caja 2,0.3404
+E3_4mixtas,1,Caja 3,0.3707
+E3_4mixtas,1,Caja 4,0.4041
+E3_4mixtas,2,General,0.2373
+E3_4mixtas,2,Operación: Pago,0.4684
+E3_4mixtas,2,Operación: Retiro,0.1187
+E3_4mixtas,2,Tipo: Pago - Lento,0.037
+E3_4mixtas,2,Tipo: Pago - Muy lento,0.7321
+E3_4mixtas,2,Tipo: Pago - Normal,0.0
+E3_4mixtas,2,Tipo: Pago - Rápido,1.9043
+E3_4mixtas,2,Tipo: Retiro - Lento,0.0
+E3_4mixtas,2,Tipo: Retiro - Muy lento,0.1023
+E3_4mixtas,2,Tipo: Retiro - Normal,0.1936
+E3_4mixtas,2,Tipo: Retiro - Rápido,0.0688
+E3_4mixtas,2,Caja 1,0.2766
+E3_4mixtas,2,Caja 2,0.214
+E3_4mixtas,2,Caja 3,0.1944
+E3_4mixtas,2,Caja 4,0.2695
+E3_4mixtas,3,General,0.0282
+E3_4mixtas,3,Operación: Pago,0.0
+E3_4mixtas,3,Operación: Retiro,0.0393
+E3_4mixtas,3,Tipo: Pago - Lento,0.0
+E3_4mixtas,3,Tipo: Pago - Muy lento,0.0
+E3_4mixtas,3,Tipo: Pago - Normal,0.0
+E3_4mixtas,3,Tipo: Pago - Rápido,0.0
+E3_4mixtas,3,Tipo: Retiro - Lento,0.0
+E3_4mixtas,3,Tipo: Retiro - Muy lento,0.0
+E3_4mixtas,3,Tipo: Retiro - Normal,0.0023
+E3_4mixtas,3,Tipo: Retiro - Rápido,0.177
+E3_4mixtas,3,Caja 1,0.0373
+E3_4mixtas,3,Caja 2,0.0026
+E3_4mixtas,3,Caja 3,0.0724
+E3_4mixtas,3,Caja 4,0.0
+E3_4mixtas,4,General,0.0745
+E3_4mixtas,4,Operación: Pago,0.0
+E3_4mixtas,4,Operación: Retiro,0.1164
+E3_4mixtas,4,Tipo: Pago - Lento,0.0
+E3_4mixtas,4,Tipo: Pago - Muy lento,0.0
+E3_4mixtas,4,Tipo: Pago - Normal,0.0
+E3_4mixtas,4,Tipo: Pago - Rápido,0.0
+E3_4mixtas,4,Tipo: Retiro - Lento,0.0593
+E3_4mixtas,4,Tipo: Retiro - Muy lento,0.1166
+E3_4mixtas,4,Tipo: Retiro - Normal,0.0746
+E3_4mixtas,4,Tipo: Retiro - Rápido,0.269
+E3_4mixtas,4,Caja 1,0.0284
+E3_4mixtas,4,Caja 2,0.0378
+E3_4mixtas,4,Caja 3,0.1563
+E3_4mixtas,4,Caja 4,0.0546
+E3_4mixtas,5,General,0.1208
+E3_4mixtas,5,Operación: Pago,0.0195
+E3_4mixtas,5,Operación: Retiro,0.1666
+E3_4mixtas,5,Tipo: Pago - Lento,0.0
+E3_4mixtas,5,Tipo: Pago - Muy lento,0.0
+E3_4mixtas,5,Tipo: Pago - Normal,0.0
+E3_4mixtas,5,Tipo: Pago - Rápido,0.1476
+E3_4mixtas,5,Tipo: Retiro - Lento,0.037
+E3_4mixtas,5,Tipo: Retiro - Muy lento,0.4513
+E3_4mixtas,5,Tipo: Retiro - Normal,0.0966
+E3_4mixtas,5,Tipo: Retiro - Rápido,0.1223
+E3_4mixtas,5,Caja 1,0.0716
+E3_4mixtas,5,Caja 2,0.0918
+E3_4mixtas,5,Caja 3,0.0233
+E3_4mixtas,5,Caja 4,0.2971
+E3_4mixtas,6,General,0.1812
+E3_4mixtas,6,Operación: Pago,0.5119
+E3_4mixtas,6,Operación: Retiro,0.0447
+E3_4mixtas,6,Tipo: Pago - Lento,0.7729
+E3_4mixtas,6,Tipo: Pago - Muy lento,0.5281
+E3_4mixtas,6,Tipo: Pago - Normal,0.0
+E3_4mixtas,6,Tipo: Pago - Rápido,0.3131
+E3_4mixtas,6,Tipo: Retiro - Lento,0.0
+E3_4mixtas,6,Tipo: Retiro - Muy lento,0.0
+E3_4mixtas,6,Tipo: Retiro - Normal,0.1015
+E3_4mixtas,6,Tipo: Retiro - Rápido,0.0
+E3_4mixtas,6,Caja 1,0.1269
+E3_4mixtas,6,Caja 2,0.0469
+E3_4mixtas,6,Caja 3,0.4333
+E3_4mixtas,6,Caja 4,0.1895
+E3_4mixtas,7,General,0.2008
+E3_4mixtas,7,Operación: Pago,0.1441
+E3_4mixtas,7,Operación: Retiro,0.2225
+E3_4mixtas,7,Tipo: Pago - Lento,0.3558
+E3_4mixtas,7,Tipo: Pago - Muy lento,0.0
+E3_4mixtas,7,Tipo: Pago - Normal,0.1303
+E3_4mixtas,7,Tipo: Pago - Rápido,0.0
+E3_4mixtas,7,Tipo: Retiro - Lento,0.0166
+E3_4mixtas,7,Tipo: Retiro - Muy lento,0.2637
+E3_4mixtas,7,Tipo: Retiro - Normal,0.1127
+E3_4mixtas,7,Tipo: Retiro - Rápido,0.4265
+E3_4mixtas,7,Caja 1,0.2474
+E3_4mixtas,7,Caja 2,0.196
+E3_4mixtas,7,Caja 3,0.2323
+E3_4mixtas,7,Caja 4,0.1351
+E3_4mixtas,8,General,0.0284
+E3_4mixtas,8,Operación: Pago,0.0
+E3_4mixtas,8,Operación: Retiro,0.0398
+E3_4mixtas,8,Tipo: Pago - Lento,0.0
+E3_4mixtas,8,Tipo: Pago - Muy lento,0.0
+E3_4mixtas,8,Tipo: Pago - Normal,0.0
+E3_4mixtas,8,Tipo: Pago - Rápido,0.0
+E3_4mixtas,8,Tipo: Retiro - Lento,0.0
+E3_4mixtas,8,Tipo: Retiro - Muy lento,0.1361
+E3_4mixtas,8,Tipo: Retiro - Normal,0.0424
+E3_4mixtas,8,Tipo: Retiro - Rápido,0.0
+E3_4mixtas,8,Caja 1,0.044
+E3_4mixtas,8,Caja 2,0.007
+E3_4mixtas,8,Caja 3,0.0
+E3_4mixtas,8,Caja 4,0.0675
+E3_4mixtas,9,General,0.0933
+E3_4mixtas,9,Operación: Pago,0.1087
+E3_4mixtas,9,Operación: Retiro,0.0868
+E3_4mixtas,9,Tipo: Pago - Lento,0.0
+E3_4mixtas,9,Tipo: Pago - Muy lento,0.2387
+E3_4mixtas,9,Tipo: Pago - Normal,0.0
+E3_4mixtas,9,Tipo: Pago - Rápido,0.2014
+E3_4mixtas,9,Tipo: Retiro - Lento,0.0313
+E3_4mixtas,9,Tipo: Retiro - Muy lento,0.0
+E3_4mixtas,9,Tipo: Retiro - Normal,0.1553
+E3_4mixtas,9,Tipo: Retiro - Rápido,0.0909
+E3_4mixtas,9,Caja 1,0.1283
+E3_4mixtas,9,Caja 2,0.0221
+E3_4mixtas,9,Caja 3,0.2276
+E3_4mixtas,9,Caja 4,0.0272
+E3_4mixtas,10,General,0.3544
+E3_4mixtas,10,Operación: Pago,0.2478
+E3_4mixtas,10,Operación: Retiro,0.4012
+E3_4mixtas,10,Tipo: Pago - Lento,0.1851
+E3_4mixtas,10,Tipo: Pago - Muy lento,0.1358
+E3_4mixtas,10,Tipo: Pago - Normal,0.6569
+E3_4mixtas,10,Tipo: Pago - Rápido,0.0
+E3_4mixtas,10,Tipo: Retiro - Lento,0.7144
+E3_4mixtas,10,Tipo: Retiro - Muy lento,0.0324
+E3_4mixtas,10,Tipo: Retiro - Normal,0.4518
+E3_4mixtas,10,Tipo: Retiro - Rápido,0.5919
+E3_4mixtas,10,Caja 1,0.2239
+E3_4mixtas,10,Caja 2,0.4302
+E3_4mixtas,10,Caja 3,0.5601
+E3_4mixtas,10,Caja 4,0.2705
+E4_2R_2P,1,General,0.8613
+E4_2R_2P,1,Operación: Pago,0.8215
+E4_2R_2P,1,Operación: Retiro,0.8795
+E4_2R_2P,1,Tipo: Pago - Lento,1.1912
+E4_2R_2P,1,Tipo: Pago - Muy lento,0.9743
+E4_2R_2P,1,Tipo: Pago - Normal,0.3308
+E4_2R_2P,1,Tipo: Pago - Rápido,0.4008
+E4_2R_2P,1,Tipo: Retiro - Lento,0.0531
+E4_2R_2P,1,Tipo: Retiro - Muy lento,0.5634
+E4_2R_2P,1,Tipo: Retiro - Normal,0.9366
+E4_2R_2P,1,Tipo: Retiro - Rápido,1.4743
+E4_2R_2P,1,Caja 1,1.0294
+E4_2R_2P,1,Caja 2,0.7534
+E4_2R_2P,1,Caja 3,0.7776
+E4_2R_2P,1,Caja 4,0.8752
+E4_2R_2P,2,General,0.4885
+E4_2R_2P,2,Operación: Pago,0.6725
+E4_2R_2P,2,Operación: Retiro,0.3941
+E4_2R_2P,2,Tipo: Pago - Lento,0.4315
+E4_2R_2P,2,Tipo: Pago - Muy lento,0.5039
+E4_2R_2P,2,Tipo: Pago - Normal,0.9824
+E4_2R_2P,2,Tipo: Pago - Rápido,1.9043
+E4_2R_2P,2,Tipo: Retiro - Lento,0.1274
+E4_2R_2P,2,Tipo: Retiro - Muy lento,0.6482
+E4_2R_2P,2,Tipo: Retiro - Normal,0.3662
+E4_2R_2P,2,Tipo: Retiro - Rápido,0.5047
+E4_2R_2P,2,Caja 1,0.4685
+E4_2R_2P,2,Caja 2,0.3254
+E4_2R_2P,2,Caja 3,0.5922
+E4_2R_2P,2,Caja 4,0.7797
+E4_2R_2P,3,General,0.6954
+E4_2R_2P,3,Operación: Pago,0.8581
+E4_2R_2P,3,Operación: Retiro,0.6317
+E4_2R_2P,3,Tipo: Pago - Lento,0.7846
+E4_2R_2P,3,Tipo: Pago - Muy lento,1.1546
+E4_2R_2P,3,Tipo: Pago - Normal,0.4764
+E4_2R_2P,3,Tipo: Pago - Rápido,1.0221
+E4_2R_2P,3,Tipo: Retiro - Lento,0.1187
+E4_2R_2P,3,Tipo: Retiro - Muy lento,0.5936
+E4_2R_2P,3,Tipo: Retiro - Normal,0.423
+E4_2R_2P,3,Tipo: Retiro - Rápido,1.558
+E4_2R_2P,3,Caja 1,1.0329
+E4_2R_2P,3,Caja 2,0.247
+E4_2R_2P,3,Caja 3,0.7376
+E4_2R_2P,3,Caja 4,1.0442
+E4_2R_2P,4,General,0.4586
+E4_2R_2P,4,Operación: Pago,0.6986
+E4_2R_2P,4,Operación: Retiro,0.3238
+E4_2R_2P,4,Tipo: Pago - Lento,0.6891
+E4_2R_2P,4,Tipo: Pago - Muy lento,0.4188
+E4_2R_2P,4,Tipo: Pago - Normal,1.5396
+E4_2R_2P,4,Tipo: Pago - Rápido,0.1
+E4_2R_2P,4,Tipo: Retiro - Lento,0.3024
+E4_2R_2P,4,Tipo: Retiro - Muy lento,0.0
+E4_2R_2P,4,Tipo: Retiro - Normal,0.3908
+E4_2R_2P,4,Tipo: Retiro - Rápido,0.4964
+E4_2R_2P,4,Caja 1,0.3098
+E4_2R_2P,4,Caja 2,0.3342
+E4_2R_2P,4,Caja 3,0.9211
+E4_2R_2P,4,Caja 4,0.5123
+E4_2R_2P,5,General,0.5123
+E4_2R_2P,5,Operación: Pago,0.2328
+E4_2R_2P,5,Operación: Retiro,0.6389
+E4_2R_2P,5,Tipo: Pago - Lento,0.4799
+E4_2R_2P,5,Tipo: Pago - Muy lento,0.0
+E4_2R_2P,5,Tipo: Pago - Normal,0.0
+E4_2R_2P,5,Tipo: Pago - Rápido,0.5329
+E4_2R_2P,5,Tipo: Retiro - Lento,1.1507
+E4_2R_2P,5,Tipo: Retiro - Muy lento,0.4221
+E4_2R_2P,5,Tipo: Retiro - Normal,0.4101
+E4_2R_2P,5,Tipo: Retiro - Rápido,0.9619
+E4_2R_2P,5,Caja 1,0.6981
+E4_2R_2P,5,Caja 2,0.5713
+E4_2R_2P,5,Caja 3,0.4921
+E4_2R_2P,5,Caja 4,0.0156
+E4_2R_2P,6,General,0.7853
+E4_2R_2P,6,Operación: Pago,1.8247
+E4_2R_2P,6,Operación: Retiro,0.3565
+E4_2R_2P,6,Tipo: Pago - Lento,1.3979
+E4_2R_2P,6,Tipo: Pago - Muy lento,1.7554
+E4_2R_2P,6,Tipo: Pago - Normal,0.1524
+E4_2R_2P,6,Tipo: Pago - Rápido,9.3002
+E4_2R_2P,6,Tipo: Retiro - Lento,0.3277
+E4_2R_2P,6,Tipo: Retiro - Muy lento,0.2707
+E4_2R_2P,6,Tipo: Retiro - Normal,0.4648
+E4_2R_2P,6,Tipo: Retiro - Rápido,0.2482
+E4_2R_2P,6,Caja 1,0.3279
+E4_2R_2P,6,Caja 2,0.3863
+E4_2R_2P,6,Caja 3,0.8987
+E4_2R_2P,6,Caja 4,2.7199
+E4_2R_2P,7,General,0.7284
+E4_2R_2P,7,Operación: Pago,0.4096
+E4_2R_2P,7,Operación: Retiro,0.8504
+E4_2R_2P,7,Tipo: Pago - Lento,0.7169
+E4_2R_2P,7,Tipo: Pago - Muy lento,0.1519
+E4_2R_2P,7,Tipo: Pago - Normal,0.2223
+E4_2R_2P,7,Tipo: Pago - Rápido,0.4726
+E4_2R_2P,7,Tipo: Retiro - Lento,0.5778
+E4_2R_2P,7,Tipo: Retiro - Muy lento,0.4524
+E4_2R_2P,7,Tipo: Retiro - Normal,0.9481
+E4_2R_2P,7,Tipo: Retiro - Rápido,1.1715
+E4_2R_2P,7,Caja 1,0.8725
+E4_2R_2P,7,Caja 2,0.8247
+E4_2R_2P,7,Caja 3,0.5295
+E4_2R_2P,7,Caja 4,0.3063
+E4_2R_2P,8,General,0.2421
+E4_2R_2P,8,Operación: Pago,0.305
+E4_2R_2P,8,Operación: Retiro,0.2167
+E4_2R_2P,8,Tipo: Pago - Lento,0.1791
+E4_2R_2P,8,Tipo: Pago - Muy lento,0.335
+E4_2R_2P,8,Tipo: Pago - Normal,0.3532
+E4_2R_2P,8,Tipo: Pago - Rápido,0.3328
+E4_2R_2P,8,Tipo: Retiro - Lento,0.0
+E4_2R_2P,8,Tipo: Retiro - Muy lento,0.1951
+E4_2R_2P,8,Tipo: Retiro - Normal,0.1724
+E4_2R_2P,8,Tipo: Retiro - Rápido,0.5056
+E4_2R_2P,8,Caja 1,0.1434
+E4_2R_2P,8,Caja 2,0.2992
+E4_2R_2P,8,Caja 3,0.4873
+E4_2R_2P,8,Caja 4,0.116
+E4_2R_2P,9,General,0.6482
+E4_2R_2P,9,Operación: Pago,0.8458
+E4_2R_2P,9,Operación: Retiro,0.5651
+E4_2R_2P,9,Tipo: Pago - Lento,0.538
+E4_2R_2P,9,Tipo: Pago - Muy lento,1.4226
+E4_2R_2P,9,Tipo: Pago - Normal,0.6094
+E4_2R_2P,9,Tipo: Pago - Rápido,0.0
+E4_2R_2P,9,Tipo: Retiro - Lento,0.4619
+E4_2R_2P,9,Tipo: Retiro - Muy lento,0.3213
+E4_2R_2P,9,Tipo: Retiro - Normal,0.6212
+E4_2R_2P,9,Tipo: Retiro - Rápido,0.8123
+E4_2R_2P,9,Caja 1,0.5965
+E4_2R_2P,9,Caja 2,0.5342
+E4_2R_2P,9,Caja 3,0.693
+E4_2R_2P,9,Caja 4,1.0082
+E4_2R_2P,10,General,1.0064
+E4_2R_2P,10,Operación: Pago,1.8149
+E4_2R_2P,10,Operación: Retiro,0.652
+E4_2R_2P,10,Tipo: Pago - Lento,0.9575
+E4_2R_2P,10,Tipo: Pago - Muy lento,1.5077
+E4_2R_2P,10,Tipo: Pago - Normal,4.0815
+E4_2R_2P,10,Tipo: Pago - Rápido,0.8368
+E4_2R_2P,10,Tipo: Retiro - Lento,0.4998
+E4_2R_2P,10,Tipo: Retiro - Muy lento,0.2321
+E4_2R_2P,10,Tipo: Retiro - Normal,0.9645
+E4_2R_2P,10,Tipo: Retiro - Rápido,0.5136
+E4_2R_2P,10,Caja 1,0.9017
+E4_2R_2P,10,Caja 2,0.4472
+E4_2R_2P,10,Caja 3,1.8703
+E4_2R_2P,10,Caja 4,1.7609

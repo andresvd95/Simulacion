@@ -1,0 +1,73 @@
+escenario,criterio,media,de,ic_inf,ic_sup,n,supera_umbral
+E0_3mixtas,General,0.7869,0.3614,0.5284,1.0454,10,False
+E0_3mixtas,Operación: Pago,0.6708,0.331,0.434,0.9076,10,False
+E0_3mixtas,Operación: Retiro,0.8466,0.4887,0.497,1.1962,10,False
+E0_3mixtas,Tipo: Pago - Lento,0.602,0.5344,0.2197,0.9843,10,False
+E0_3mixtas,Tipo: Pago - Muy lento,0.5281,0.4448,0.2099,0.8463,10,False
+E0_3mixtas,Tipo: Pago - Normal,0.7616,0.9015,0.1166,1.4065,10,False
+E0_3mixtas,Tipo: Pago - Rápido,1.0859,0.9181,0.4292,1.7427,10,False
+E0_3mixtas,Tipo: Retiro - Lento,0.693,0.4292,0.386,1.0001,10,False
+E0_3mixtas,Tipo: Retiro - Muy lento,0.6351,0.4614,0.3051,0.9652,10,False
+E0_3mixtas,Tipo: Retiro - Normal,0.889,0.5083,0.5254,1.2526,10,False
+E0_3mixtas,Tipo: Retiro - Rápido,1.1719,1.1169,0.3729,1.9709,10,False
+E0_3mixtas,Caja 1,0.7666,0.6191,0.3237,1.2095,10,False
+E0_3mixtas,Caja 2,0.8107,0.2783,0.6116,1.0098,10,False
+E0_3mixtas,Caja 3,0.8185,0.3148,0.5933,1.0437,10,False
+E1_1R_2P,General,4.7697,3.624,2.1773,7.3621,10,False
+E1_1R_2P,Operación: Pago,0.8872,0.595,0.4615,1.3128,10,False
+E1_1R_2P,Operación: Retiro,6.4838,5.2467,2.7305,10.237,10,True
+E1_1R_2P,Tipo: Pago - Lento,0.9785,0.8119,0.3977,1.5594,10,False
+E1_1R_2P,Tipo: Pago - Muy lento,0.8158,0.8357,0.2179,1.4136,10,False
+E1_1R_2P,Tipo: Pago - Normal,0.7756,0.9865,0.0699,1.4813,10,False
+E1_1R_2P,Tipo: Pago - Rápido,1.5415,1.998,0.1122,2.9708,10,False
+E1_1R_2P,Tipo: Retiro - Lento,5.629,5.1923,1.9146,9.3433,10,True
+E1_1R_2P,Tipo: Retiro - Muy lento,5.9487,4.8732,2.4627,9.4348,10,True
+E1_1R_2P,Tipo: Retiro - Normal,6.8954,5.9668,2.627,11.1638,10,True
+E1_1R_2P,Tipo: Retiro - Rápido,6.9271,4.4702,3.7293,10.1249,10,True
+E1_1R_2P,Caja 1,6.4838,5.2467,2.7305,10.237,10,True
+E1_1R_2P,Caja 2,0.9077,0.765,0.3605,1.455,10,False
+E1_1R_2P,Caja 3,0.87,0.5409,0.483,1.257,10,False
+E2_2R_1P,General,3.3216,1.5688,2.1993,4.4439,10,False
+E2_2R_1P,Operación: Pago,9.5044,4.967,5.9512,13.0575,10,True
+E2_2R_1P,Operación: Retiro,0.5967,0.2514,0.4168,0.7766,10,False
+E2_2R_1P,Tipo: Pago - Lento,9.4459,4.9774,5.8853,13.0065,10,True
+E2_2R_1P,Tipo: Pago - Muy lento,8.7483,5.0558,5.1316,12.3651,10,True
+E2_2R_1P,Tipo: Pago - Normal,9.9472,4.4216,6.7842,13.1102,10,True
+E2_2R_1P,Tipo: Pago - Rápido,11.8662,9.645,4.9666,18.7658,10,True
+E2_2R_1P,Tipo: Retiro - Lento,0.403,0.3652,0.1418,0.6643,10,False
+E2_2R_1P,Tipo: Retiro - Muy lento,0.3471,0.2074,0.1987,0.4954,10,False
+E2_2R_1P,Tipo: Retiro - Normal,0.6701,0.3047,0.4521,0.8881,10,False
+E2_2R_1P,Tipo: Retiro - Rápido,0.85,0.4802,0.5065,1.1936,10,False
+E2_2R_1P,Caja 1,0.5949,0.3122,0.3715,0.8182,10,False
+E2_2R_1P,Caja 2,0.5998,0.2697,0.4069,0.7928,10,False
+E2_2R_1P,Caja 3,9.5044,4.967,5.9512,13.0575,10,True
+E3_4mixtas,General,0.1777,0.1413,0.0766,0.2788,10,False
+E3_4mixtas,Operación: Pago,0.1684,0.1903,0.0323,0.3046,10,False
+E3_4mixtas,Operación: Retiro,0.182,0.1788,0.054,0.3099,10,False
+E3_4mixtas,Tipo: Pago - Lento,0.1873,0.2751,-0.0095,0.3841,10,False
+E3_4mixtas,Tipo: Pago - Muy lento,0.1725,0.2584,-0.0123,0.3573,10,False
+E3_4mixtas,Tipo: Pago - Normal,0.0787,0.2072,-0.0695,0.227,10,False
+E3_4mixtas,Tipo: Pago - Rápido,0.2566,0.5896,-0.1651,0.6784,10,False
+E3_4mixtas,Tipo: Retiro - Lento,0.1919,0.3759,-0.0771,0.4608,10,False
+E3_4mixtas,Tipo: Retiro - Muy lento,0.1212,0.1422,0.0194,0.2229,10,False
+E3_4mixtas,Tipo: Retiro - Normal,0.1897,0.2081,0.0409,0.3386,10,False
+E3_4mixtas,Tipo: Retiro - Rápido,0.2321,0.2249,0.0712,0.3929,10,False
+E3_4mixtas,Caja 1,0.1892,0.2035,0.0436,0.3348,10,False
+E3_4mixtas,Caja 2,0.1389,0.1509,0.0309,0.2468,10,False
+E3_4mixtas,Caja 3,0.227,0.1817,0.0971,0.357,10,False
+E3_4mixtas,Caja 4,0.1715,0.1357,0.0745,0.2686,10,False
+E4_2R_2P,General,0.6427,0.2225,0.4835,0.8018,10,False
+E4_2R_2P,Operación: Pago,0.8483,0.5586,0.4488,1.2479,10,False
+E4_2R_2P,Operación: Retiro,0.5509,0.2231,0.3913,0.7105,10,False
+E4_2R_2P,Tipo: Pago - Lento,0.7366,0.3662,0.4746,0.9985,10,False
+E4_2R_2P,Tipo: Pago - Muy lento,0.8224,0.6202,0.3788,1.2661,10,False
+E4_2R_2P,Tipo: Pago - Normal,0.8748,1.2132,0.0069,1.7427,10,False
+E4_2R_2P,Tipo: Pago - Rápido,1.4903,2.7977,-0.5111,3.4916,10,False
+E4_2R_2P,Tipo: Retiro - Lento,0.362,0.3404,0.1184,0.6055,10,False
+E4_2R_2P,Tipo: Retiro - Muy lento,0.3699,0.2036,0.2243,0.5155,10,False
+E4_2R_2P,Tipo: Retiro - Normal,0.5698,0.2839,0.3666,0.7729,10,False
+E4_2R_2P,Tipo: Retiro - Rápido,0.8247,0.4522,0.5012,1.1481,10,False
+E4_2R_2P,Caja 1,0.6381,0.3191,0.4098,0.8663,10,False
+E4_2R_2P,Caja 2,0.4723,0.1961,0.332,0.6126,10,False
+E4_2R_2P,Caja 3,0.7999,0.4075,0.5084,1.0915,10,False
+E4_2R_2P,Caja 4,0.9138,0.8164,0.3298,1.4978,10,False

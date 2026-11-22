@@ -1,0 +1,8 @@
+{
+  "name": "informe-act3",
+  "private": true,
+  "description": "Generador del informe en Word (lee los CSV de ../data)",
+  "dependencies": {
+    "docx": "9.5.0"
+  }
+}

@@ -1,0 +1,17 @@
+escenario,indicador,precision_min,de_10,n_req_10,de_100,n_req_100
+E0_3mixtas,Espera general,0.5,0.3614,5,0.4069,6.0
+E0_3mixtas,Espera retiros,0.5,0.4887,7,0.4633,6.0
+E0_3mixtas,Espera pagos,0.5,0.331,5,0.3975,5.0
+E1_1R_2P,Espera general,0.5,3.624,205,3.0785,149.0
+E1_1R_2P,Espera retiros,0.5,5.2467,426,4.307,288.0
+E1_1R_2P,Espera pagos,0.5,0.595,8,0.5982,9.0
+E2_2R_1P,Espera general,0.5,1.5688,41,2.1138,72.0
+E2_2R_1P,Espera retiros,0.5,0.2514,4,0.2907,4.0
+E2_2R_1P,Espera pagos,0.5,4.967,382,6.2309,599.0
+E3_4mixtas,Espera general,0.5,0.1413,3,0.1521,3.0
+E3_4mixtas,Espera retiros,0.5,0.1788,3,0.1782,3.0
+E3_4mixtas,Espera pagos,0.5,0.1903,3,0.1527,3.0
+E4_2R_2P,Espera general,0.5,0.2225,4,0.2743,4.0
+E4_2R_2P,Espera retiros,0.5,0.2231,4,0.2984,4.0
+E4_2R_2P,Espera pagos,0.5,0.5586,8,0.6242,9.0
+Todos,Usuarios por día,10.0,18.161,16,,

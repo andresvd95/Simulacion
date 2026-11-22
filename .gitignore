@@ -6,3 +6,6 @@ docs/
 .pytest_tmp/
 .pytest_cache/
 node_modules/
+
+bash.exe.stackdump
+*.stackdump

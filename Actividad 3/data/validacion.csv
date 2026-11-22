@@ -1,0 +1,11 @@
+indicador,valor
+Usuarios por día (teórico),200.1668
+Usuarios por día (2000 jornadas simuladas),200.6755
+Usuarios por día (10 réplicas),214.4
+Proporción de retiros (10 réplicas),0.694
+Servicio medio retiro E[S] teórico,2.34
+Servicio medio retiro simulado,2.3023
+Servicio medio pago E[S] teórico,5.2
+Servicio medio pago simulado,5.1256
+Carga retiros (Erlang),0.6831
+Carga pagos (Erlang),0.6505
