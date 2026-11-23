@@ -54,6 +54,7 @@ uv venv --python 3.12 .venv
 uv pip install --python .venv/Scripts/python.exe -r requirements.txt   # Windows
 # Linux/macOS: uv pip install --python .venv/bin/python -r requirements.txt
 
+python demo.py             # demostración: responde los 5 puntos en consola (segundos)
 python run_experiments.py   # escribe los CSV en data/
 python make_figures.py      # escribe las figuras en figures/
 python -m pytest -q         # pruebas
@@ -67,6 +68,7 @@ cd informe && npm install && node build_informe.js   # genera informe.docx
 ```text
 Actividad 3/
 ├── banco.py               # Modelo SimPy: parámetros, escenarios, lógica de las cajas
+├── demo.py                # Demostración en consola de los 5 puntos
 ├── run_experiments.py     # Réplicas -> data/*.csv
 ├── make_figures.py        # Figuras -> figures/*.png
 ├── test_banco.py          # Pruebas
