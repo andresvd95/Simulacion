@@ -2,6 +2,11 @@
 
 Simulación de eventos discretos (SimPy) de una jornada de 8 horas en un banco con cajas atendidas por personas. Cada caja es una cola M/M/1 independiente. Se compara la situación actual (3 cajas mixtas) con las dos asignaciones exclusivas que plantea el banco (1 retiros + 2 pagos y 2 retiros + 1 pagos) y con dos configuraciones de 4 cajas.
 
+## Video de sustentación
+
+- [Ver en Google Drive](https://drive.google.com/file/d/1RrOLuLS9ZB8xhWtQjGjNhvygpks3HRGs/view?usp=sharing)
+- Copia en el repositorio: [`video/sustentacion_actividad3.mp4`](video/sustentacion_actividad3.mp4)
+
 ## El modelo
 
 - Llegadas por una sola puerta: 70 % retiros, 30 % pagos; tipo de usuario según la Tabla 2 del enunciado; tiempo entre llegadas y tiempo de servicio exponenciales con las medias de la Tabla 1 según el tipo.
@@ -75,5 +80,5 @@ Actividad 3/
 ├── data/                  # Resultados (registros por usuario, resúmenes, comparaciones)
 ├── figures/               # Figuras del informe
 ├── informe/               # Generador del informe (docx-js) y el documento en Word y PDF
-└── video/guion.md         # Guion del video de sustentación
+└── video/                 # Video de sustentación (copia comprimida)
 ```

@@ -10,6 +10,9 @@ const FIGS = path.join(ROOT, "figures");
 const AUTOR = "Santiago Andrés Valencia Duque";
 const AFILIACION = "Ingeniería de Software y Datos, IU Digital de Antioquia";
 const REPO = "https://github.com/andresvd95/Simulacion/tree/main/Actividad%203";
+const VIDEO = "https://drive.google.com/file/d/1RrOLuLS9ZB8xhWtQjGjNhvygpks3HRGs/view?usp=sharing";
+const { ExternalHyperlink } = require("docx");
+const enlace = (texto, url) => new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 80 }, children: [new TextRun({ text: texto, size: 20, font: "Times New Roman" }), new ExternalHyperlink({ link: url, children: [new TextRun({ text: url, style: "Hyperlink", size: 20, font: "Times New Roman", color: "0563C1", underline: {} })] })] });
 const SALIDA = "Valencia_Santiago_problemaBancario.docx";
 const { TableOfContents } = require("docx");
 
@@ -108,7 +111,9 @@ push(
   titulo("Actividad 3, Simulación", 22, false),
   titulo(AUTOR, 22, true),
   titulo(AFILIACION, 22, false),
-  titulo("Noviembre de 2026", 22, false, 0),
+  titulo("Noviembre de 2026", 22, false, 400),
+  enlace("Video de sustentación: ", VIDEO),
+  enlace("Repositorio: ", REPO),
   new Paragraph({ pageBreakBefore: true, spacing: { after: 200 }, children: [new TextRun({ text: "Índice", bold: true, size: 24, font: "Times New Roman" })] }),
   new TableOfContents("Índice", { hyperlink: true, headingStyleRange: "1-2" }),
   new Paragraph({ pageBreakBefore: true, children: [] }),
@@ -271,6 +276,7 @@ push(
     "[6] P. Virtanen *et al.*, \"SciPy 1.0: Fundamental algorithms for scientific computing in Python\", *Nature Methods*, vol. 17, pp. 261–272, 2020.",
   ].map((t) => P(t, { noIndent: true })),
   H1("Anexo. Código y reproducibilidad"),
+  P("Video de sustentación: " + VIDEO, { noIndent: true }),
   P("El código fuente, los datos generados y las figuras están en la carpeta Actividad 3 del repositorio " + REPO + ". Las tablas completas (registro de cada usuario simulado, resúmenes por caja, por tipo y por réplica, comparaciones y réplicas necesarias) están en el libro de Excel data/resultados_simulacion_banco.xlsx. Para reproducir los resultados:", { noIndent: true }),
   ...BUL([
     "banco.py: modelo SimPy (parámetros, escenarios y lógica de las cajas).",
