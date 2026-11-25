@@ -1,0 +1,6 @@
+indicador,con_transitorio,sin_transitorio
+espera_min,13.9664,15.4888
+uso_min,3.602,3.6124
+sistema_min,17.5684,19.1011
+espera_p95_min,50.6068,54.622
+usuarios_por_replica,466.08,322.93

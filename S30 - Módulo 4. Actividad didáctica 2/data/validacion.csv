@@ -1,0 +1,12 @@
+indicador,valor
+"Usuarios por día, teórico",464.5161
+"Usuarios por día, simulado (500 jornadas)",464.77
+"Uso medio del cajero, teórico (min)",3.6
+"Uso medio del cajero, simulado (min)",3.5883
+"ρ por cajero, teórico",0.7742
+"Utilización por cajero, simulada",0.7492
+Wq aproximación de Kingman G/G/1 (min),17.1569
+Wq fórmula de Pollaczek-Khinchine M/G/1 (min),15.5714
+"Wq simulada, estado estable (min)",15.0031
+Lq simulada por cajero (personas),3.0857
+"Lq por ley de Little, λ·Wq (personas)",3.2265

@@ -5,6 +5,7 @@ Repositorio de las actividades de la asignatura de Simulación.
 - **Actividad 1:** simulación de Yahtzee con Montecarlo (esta página, carpeta `Act1/`).
 - **Actividad 2:** Modelo Oculto de Markov para el abandono de clientes de un ISP, en [`Actividad 2/`](Actividad%202/README.md).
 - **Actividad 3:** simulación de eventos discretos de las cajas del Banco de Colombia (colas M/M/1), en [`Actividad 3/`](Actividad%203/README.md).
+- **Módulo 4, Actividad didáctica 2:** problema de parqueaderos (cajeros de autopago, estado estable, método de Welch), en [`S30 - Módulo 4. Actividad didáctica 2/`](S30%20-%20M%C3%B3dulo%204.%20Actividad%20did%C3%A1ctica%202/README.md).
 
 # Simulación de Yahtzee con Montecarlo
 

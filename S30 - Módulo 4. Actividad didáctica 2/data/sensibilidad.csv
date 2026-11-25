@@ -1,0 +1,10 @@
+reparto,escenario,espera
+15 % lento / 40 % muy lento,S0_3_filas,16.915
+15 % lento / 40 % muy lento,S1_4_filas,7.0677
+15 % lento / 40 % muy lento,S3_3_fila_unica,4.5706
+"27,5 % / 27,5 % (base)",S0_3_filas,15.0031
+"27,5 % / 27,5 % (base)",S1_4_filas,6.3298
+"27,5 % / 27,5 % (base)",S3_3_fila_unica,3.9989
+40 % lento / 15 % muy lento,S0_3_filas,12.6791
+40 % lento / 15 % muy lento,S1_4_filas,5.4596
+40 % lento / 15 % muy lento,S3_3_fila_unica,3.0614

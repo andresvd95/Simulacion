@@ -1,0 +1,12 @@
+parametro,valor
+t_transitorio_min,220.0
+nivel_estable_min,15.294761220208622
+n_media_acumulada,56.0
+n_formula_ic,70.0
+replicas_usadas,70.0
+r_piloto,100.0
+intervalo_min,10.0
+ventana_welch,6.0
+tol_transitorio,0.1
+tol_replicas,0.05
+precision_ic,0.1

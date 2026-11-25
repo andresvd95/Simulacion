@@ -1,0 +1,5 @@
+tipo,media_simulada,n,media_tabla,proporcion_simulada,proporcion_supuesta
+Rápido,1.0034,58483,1.0,0.2517,0.25
+Normal,2.9791,46418,3.0,0.1997,0.2
+Lento,4.0042,63401,4.0,0.2728,0.275
+Muy lento,5.9772,64083,6.0,0.2758,0.275
