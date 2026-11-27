@@ -4,7 +4,8 @@ Simulación de eventos discretos (SimPy) de los cajeros de autopago del parquead
 
 ## Video de sustentación
 
-- Enlace: _pendiente_
+- [Ver en Google Drive](https://drive.google.com/file/d/1IW0_flvvKN5enuMaS3RsAGetLLPkthR8/view?usp=sharing)
+- Copia en el repositorio: [`video/sustentacion_actividad4.mp4`](video/sustentacion_actividad4.mp4)
 
 ## El modelo
 
@@ -90,5 +91,6 @@ cd informe && npm install && node build_informe.js   # genera el informe .docx
 ├── test_parqueadero.py    # Pruebas de verificación
 ├── data/                  # Resultados en CSV y libro de Excel
 ├── figures/               # Figuras del informe
-└── informe/               # Generador del informe (docx-js) y el documento en Word y PDF
+├── informe/               # Generador del informe (docx-js) y el documento en Word y PDF
+└── video/                 # Video de sustentación (copia comprimida)
 ```

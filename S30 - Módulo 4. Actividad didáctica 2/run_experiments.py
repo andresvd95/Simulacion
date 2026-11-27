@@ -33,6 +33,10 @@ TOL_REPLICAS = 0.05     # la media acumulada debe quedar dentro de ±5 % de su v
 PRECISION = 0.10        # semiancho relativo aceptable del IC 95 % (fórmula clásica)
 META_ESPERA = 5.0       # criterio: espera promedio máxima aceptable (min)
 META_P10 = 0.10         # criterio: máximo 10 % de usuarios esperando más de 10 min
+REPO = "https://github.com/andresvd95/Simulacion/tree/main/S30%20-%20M%C3%B3dulo%204.%20Actividad%20did%C3%A1ctica%202"
+VIDEO_GH = ("https://github.com/andresvd95/Simulacion/blob/main/S30%20-%20M%C3%B3dulo%204.%20Actividad%20did%C3%A1ctica%202"
+            "/video/sustentacion_actividad4.mp4")
+VIDEO_DRIVE = "https://drive.google.com/file/d/1IW0_flvvKN5enuMaS3RsAGetLLPkthR8/view?usp=sharing"
 
 
 def ic95(x):
@@ -240,7 +244,25 @@ def main():
     val = pd.DataFrame(val, columns=["indicador", "valor"])
     val.round(4).to_csv(DATA / "validacion.csv", index=False)
 
+    portada = pd.DataFrame([
+        ("Actividad", "Módulo 4, Actividad didáctica 2: solución de un problema de parqueaderos"),
+        ("Autor", "Santiago Andrés Valencia Duque"),
+        ("Video de sustentación (GitHub)", VIDEO_GH),
+        ("Video de sustentación (Google Drive)", VIDEO_DRIVE),
+        ("Repositorio", REPO),
+        ("Réplicas por escenario", N),
+        ("Fin del transitorio (min)", t_warm),
+        ("Decisión", "3 cajeros no bastan: fila única de inmediato y un 4.º cajero con fila única"),
+    ], columns=["campo", "valor"])
     with pd.ExcelWriter(DATA / "resultados_simulacion_parqueadero.xlsx") as xl:
+        portada.to_excel(xl, sheet_name="portada", index=False)
+        hoja = xl.sheets["portada"]
+        hoja.column_dimensions["A"].width = 38
+        hoja.column_dimensions["B"].width = 110
+        for fila in (4, 5, 6):  # enlaces clicables
+            celda = hoja.cell(row=fila, column=2)
+            celda.hyperlink = celda.value
+            celda.style = "Hyperlink"
         pd.Series(params).to_frame("valor").to_excel(xl, sheet_name="estado_estable")
         welch.round(4).to_excel(xl, sheet_name="welch", index=False)
         acum.round(4).to_excel(xl, sheet_name="media_acumulada", index=False)

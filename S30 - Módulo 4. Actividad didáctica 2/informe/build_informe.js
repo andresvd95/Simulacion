@@ -11,7 +11,8 @@ const FIGS = path.join(ROOT, "figures");
 const AUTOR = "Santiago Andrés Valencia Duque";
 const AFILIACION = "Ingeniería de Software y Datos, IU Digital de Antioquia";
 const REPO = "https://github.com/andresvd95/Simulacion/tree/main/S30%20-%20M%C3%B3dulo%204.%20Actividad%20did%C3%A1ctica%202";
-const VIDEO = process.env.VIDEO_URL || "";
+const VIDEO = "https://drive.google.com/file/d/1IW0_flvvKN5enuMaS3RsAGetLLPkthR8/view?usp=sharing";
+const VIDEO_GH = REPO.replace("/tree/", "/blob/") + "/video/sustentacion_actividad4.mp4";
 const SALIDA = "Valencia_Santiago_problemaParqueadero.docx";
 const FONT = "Times New Roman";
 const enlace = (texto, url) => new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 80 }, children: [
@@ -107,7 +108,8 @@ push(
   titulo(AUTOR, 22, true),
   titulo(AFILIACION, 22, false),
   titulo("Noviembre de 2026", 22, false, 400),
-  ...(VIDEO ? [enlace("Video de sustentación: ", VIDEO)] : []),
+  enlace("Video de sustentación (Drive): ", VIDEO),
+  enlace("Video en GitHub: ", VIDEO_GH),
   enlace("Repositorio: ", REPO),
   new Paragraph({ pageBreakBefore: true, spacing: { after: 200 }, children: [new TextRun({ text: "Índice", bold: true, size: 24, font: FONT })] }),
   new TableOfContents("Índice", { hyperlink: true, headingStyleRange: "1-2" }),
@@ -286,7 +288,8 @@ push(
     "[8] J. D. Hunter, \"Matplotlib: A 2D graphics environment\", *Computing in Science & Engineering*, vol. 9, no. 3, pp. 90–95, 2007.",
   ].map((t) => P(t, { noIndent: true })),
   H1("Anexo. Código y reproducibilidad"),
-  ...(VIDEO ? [P("Video de sustentación: " + VIDEO, { noIndent: true })] : []),
+  P("Video de sustentación (Google Drive): " + VIDEO, { noIndent: true }),
+  P("Copia del video en GitHub: " + decodeURI(VIDEO_GH), { noIndent: true }),
   P("El código, los datos y las figuras están en el repositorio " + decodeURI(REPO) + ". Las tablas completas (registros de cada usuario en estado estable, resúmenes por cajero, por tipo y por réplica, decisión, comparaciones, sensibilidad, calibración y validación) están en el libro de Excel data/resultados_simulacion_parqueadero.xlsx.", { noIndent: true }),
   ...BUL([
     "parqueadero.py: modelo SimPy (tabla de usuarios, escenarios y lógica de los cajeros).",
